@@ -1,0 +1,53 @@
+.text {
+    background: url('/public/img/image47-1.jpg') no-repeat center;
+    background-size: cover;   
+    height: 110vh;
+    position: relative; 
+    
+}
+.text1{
+    font-size: 65px;
+    color: #353e4f;
+    width: 447px;
+    text-align: center;
+    position: absolute;
+    top:45vh;
+    left: 30vh;
+
+}
+.text2{
+    font-size: 18px;
+    color: #505e6e;
+    width: 550px;
+    line-height: 30px;
+    margin-top: 20px;
+    position: absolute;
+    top:60vh;
+    left: 30vh;
+}
+@media only screen and (max-width: 400px) {
+    .text{
+        height: 70vh;
+        background: rgb(232, 245, 249);
+        
+    }
+    .text1{
+        position: absolute;
+        top:80px;
+        left: 0px;
+        font-size: 33px;
+        height: 38px;
+        width: 345px;
+    }
+    .text2{
+        position: absolute;       
+        font-size: 20px;
+        height: 230px;
+        width: 345px;
+        top:150px;
+        left: 0px;
+        margin: 10px;
+
+    }
+
+  }

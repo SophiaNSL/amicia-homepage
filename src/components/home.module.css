@@ -1,0 +1,124 @@
+.container{
+    height: 140vh;
+    background: url('/public/img/header_bg.jpg') no-repeat center;
+    background-size: cover;   
+}
+header {
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.email {
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.emailIcon{
+    color:#2bc0c1;
+    font-size: 22px;
+    margin-top: 2px;
+}
+.text {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+.text1{
+    color: #f1f1f1;
+    font-size: 36px; 
+    margin-bottom: 15px; 
+    margin-top: 20px;
+}
+.line{
+    width:560px;
+    height:0.8px;
+    background-color: #f1f1f1;
+}
+.text2{
+    font-size: 30px;
+    color:#fff;
+}
+.text3{
+    font-size: 20px;
+    color:#fff;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    margin: 20px;
+    padding: 20px 48px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #2bc0c1;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+   
+}
+
+@media only screen and (max-width: 400px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 120vh;
+    }
+
+    header{
+        /* display: flex;
+        flex-direction: column; */
+        position: relative;
+    }
+    .logoImg{
+        height: 65px;
+        width: 174px;
+        position: absolute;
+        top:70px;
+        
+    }
+    .emailtext{
+        font-size: 0.8rem;
+    }
+    .text1{
+        margin-top: 120px;
+        height: 139px;
+        width: 345px;
+        text-align: center;
+    }
+   
+    .text2{
+        height: 56px;
+        width: 345px;
+        font-size: 21px;
+        text-align: center;
+    }
+    .logoTextImg{
+        height: 66px;
+        width: 345px;
+        margin-bottom: 12px;
+    }
+    .text3{
+        height: 103px;
+        width: 327px;
+        text-align: center;
+    }
+    .btn{
+        margin-top: 40px;
+    }
+
+
+
+  }
